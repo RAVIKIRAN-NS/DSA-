@@ -1,6 +1,6 @@
 package ravi.Binary_search;
 
-// leetcode - peak index in mountain array - easy.
+// leetcode - peak index in mountain array : easy.
 
 public class Peak_index_in_Mountain_arr {
     public static void main(String[] args) {
