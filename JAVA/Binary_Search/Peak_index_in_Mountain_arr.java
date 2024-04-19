@@ -24,4 +24,4 @@ public class Peak_index_in_Mountain_arr {
     }
 }
 
-//same for 162 nd problem in leetcode - medium
+//same for 162 nd problem in leetcode : medium
