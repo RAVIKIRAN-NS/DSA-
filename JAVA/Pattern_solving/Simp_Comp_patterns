@@ -10,6 +10,6 @@ public class pattern_1 {
             int final_ele = original_n - Math.min(Math.min(row,col) , Math.min(n-row,n-col));
             System.out.print(final_ele+" ");
         }
-        
+        System.out.println();
     }
 }
