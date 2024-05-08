@@ -1,1 +1,6 @@
-
+public class pattern_1 {
+    public static void main(String[] args) {
+        pattern31(4);
+    }
+    
+    }
