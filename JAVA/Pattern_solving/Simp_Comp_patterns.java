@@ -3,7 +3,16 @@ public class pattern_1 {
         pattern31(4);
     }
 
-//
+// Pattern - 31;
+// Output - 
+//             4 4 4 4 4 4 4 
+//             4 3 3 3 3 3 4 
+//             4 3 2 2 2 3 4 
+//             4 3 2 1 2 3 4 
+//             4 3 2 2 2 3 4 
+//             4 3 3 3 3 3 4 
+//             4 4 4 4 4 4 4 
+    
     static void pattern31(int n){
     int original_n = n;
     n = 2 * n - 2;
