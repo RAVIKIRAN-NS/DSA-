@@ -2,6 +2,8 @@ public class pattern_1 {
     public static void main(String[] args) {
         pattern31(4);
     }
+
+//
     static void pattern31(int n){
     int original_n = n;
     n = 2 * n - 2;
