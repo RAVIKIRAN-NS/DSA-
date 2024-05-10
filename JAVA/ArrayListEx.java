@@ -1,4 +1,4 @@
-package ravi;
+package ravi
 
 import java.util.ArrayList;
 import java.util.Scanner;
