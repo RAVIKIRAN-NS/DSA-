@@ -23,4 +23,19 @@ public class pattern_1 {
         }
         System.out.println();
     }
+    static void pattern17(int n){
+        for (int row = 0;row < 2* n;row++){
+            int totalCol = row > n ? 2 * n -row: row;
+            for (int space = 0;space < n-totalCol;space++){
+                System.out.print("  ");
+            }
+            for (int col = totalCol;col >= 1;col--){
+                System.out.print(col+" ");
+            }
+            for (int col = 2;col <= totalCol;col++) {
+                System.out.print(col + " ");
+            }
+            System.out.println();
+        }
+    }
 }
