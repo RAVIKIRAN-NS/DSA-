@@ -23,6 +23,8 @@ public class pattern_1 {
         }
         System.out.println();
     }
+
+## 17 pattern
     static void pattern17(int n){
         for (int row = 0;row < 2* n;row++){
             int totalCol = row > n ? 2 * n -row: row;
