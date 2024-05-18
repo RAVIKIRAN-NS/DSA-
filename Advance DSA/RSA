@@ -34,5 +34,27 @@ def generate_exponent(phi):
       return e
     e += 2
 
+def gcd(a,b):
+  while b != 0:
+    a,b = b, a % b
+  return a
+
+def modular_inverse(a,b):
+  g,x,y = extended_gcd(a,b)
+  if g != 1:
+    raise ValueError("Modular_inverse doesn't exist")
+  return x % b
+
+def extended_gcd(a,b):
+  if a == 0:
+    return b,0,1
+  g,x1,y1 = extended_gcd(b % a,a)
+  x = y1 - (b // a) * x1
+  y = x1
+  return g,x,y
+
+public_key,private_key = generate_key_pair()
+print(f"Public_key: {public_key}")
+print(f"Private_key : {private_key}")
 
 
