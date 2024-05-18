@@ -17,3 +17,13 @@ def generate_prime_num():
     if is_prime(num):
       return num
 
+def is_prime(num):
+  if num <= 1:
+    return False
+  c = 2
+  while c * c < num:
+    if num % c == 0:
+      return False
+    c += 1
+  return c * c > num
+
