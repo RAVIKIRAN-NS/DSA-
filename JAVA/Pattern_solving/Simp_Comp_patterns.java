@@ -40,6 +40,7 @@ public class pattern_1 {
             System.out.println();
         }
     }
+ // pattern 30.       
      static void pattern30(int n){
         for (int row = 0;row <= n;row++){
             for (int space = 0;space < n-row;space++){
