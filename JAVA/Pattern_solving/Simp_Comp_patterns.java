@@ -55,6 +55,7 @@ public class pattern_1 {
             System.out.println();
         }
     }
+    // pattern 28.
     static void pattern28(int n){
         for (int row = 0;row < 2 * n;row++){
             int totalCol = row > n ? 2 * n -row: row;
