@@ -55,4 +55,17 @@ public class pattern_1 {
             System.out.println();
         }
     }
+    static void pattern28(int n){
+        for (int row = 0;row < 2 * n;row++){
+            int totalCol = row > n ? 2 * n -row: row;
+            int spaces = n - totalCol;
+            for (int space = 0;space < spaces;space++){
+                System.out.print(" ");
+            }
+            for (int col = 0;col < totalCol;col++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
 }
