@@ -1,5 +1,5 @@
 import random
-
+#generate key pairs
 def generate_key_pair():
   p = generate_prime_num()
   q = generate_prime_num()
